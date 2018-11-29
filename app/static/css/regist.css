@@ -1,0 +1,191 @@
+/* 网页头部开始 */
+#header-wrapper{
+    height: 60px;
+    width: 100%;
+    background: #fff;
+}
+.header{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background:#fff;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 13px 17px;
+}
+.logo a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url('../images/logo.jpg');
+}
+.header .nave{
+    float: left;
+    margin-left: 150px;
+    display: flex;
+    height: 60px;
+    width: 690px;
+    line-height: 60px;
+    justify-content: space-between;
+}
+.header .nave a{
+    display: block;
+    padding: 0 34px;
+    color: #828282;
+    box-sizing: border-box;
+}
+.header .nave a:hover{
+    color: #ec1f38;
+    border-bottom: 2px solid #eb0028;
+}
+.header .nave_R{
+    float: right;
+}
+.header .nave_R ul{
+    width: 175px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header .nave_R li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .nave_R li:hover{
+    border-bottom: 2px solid #000;
+}
+.header .nave_R li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.header .nave_R .self{
+    position: relative;
+    height: 60px;
+    display: block;
+    background: url('../images/oneplus_icon3.jpg') no-repeat center;
+}
+.header .nave_R .self:hover .self_box{
+    display: block;
+}
+.header .nave_R .shop_car{
+    height: 60px;
+    display: block;
+    position: relative;
+    background: url('../images/oneplus_icon1.jpg') no-repeat center;
+}
+.header .nave_R .shop_car:hover .shop_box{
+    display: block;
+}
+.header .nave_R .shop_car .shop_box{
+    width: 400px;
+    height: 190px;
+    border-top: 1px solid #dfdfdf;
+    position: absolute;
+    top: 62px;
+    right: -50px;
+    text-align: center;
+    box-shadow: 5px 10px 30px #e9e9e9;
+    display: none;
+}
+.header .nave_R .shop_car .shop_box .shop_txt{
+    display: block;
+    width: 400px;
+    height: 110px;
+    line-height: 110px;
+    color: #a1a1a1;
+    font-size: 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.header .nave_R .shop_car .shop_box .goshop{
+    margin: 22px 0 0 20px;
+    display: block;
+    width: 360px;
+    height: 40px;
+    line-height: 40px;
+    background: #eb0028;
+    color: #fff;
+    border-radius: 3px;
+    transition: all .5s linear;
+}
+.header .nave_R .shop_car .shop_box .goshop:hover{
+    background-color: #b8001f;
+}
+.header .nave_R .search{
+    height: 60px;
+    display: block;
+    background: url('../images/oneplus_icon2.jpg') no-repeat center;
+}
+.header .self .self_box{
+    position: absolute;
+    top: 62px;
+    right:-70px;
+    width: 320px;
+    height: 275px;
+    box-sizing: border-box;
+    border-top: 1px solid #dfdfdf;
+    padding: 20px 0 0 20px;
+    box-shadow: 5px 10px 30px #e9e9e9;
+    display: none;
+}
+.header .self_box span{
+    display: block;
+    height: 49px;
+    width: 280px;
+    line-height: 49px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #8c8c8c;
+}
+.header .self_box span>a:hover{
+    color: #111111;
+}
+.header .nave_R .self .self_box .login a{
+    display: block;
+    margin-top: 40px;
+    border-bottom: none;
+    color: #51a3cf !important;
+}
+.header .self .self_box .login:hover{
+    text-decoration: underline;
+}
+/* 网页头部结束 */
+/* 网页底部开始 */
+#footer_wrapper{
+    width: 100%;
+    height: 300px;
+    background: #fcfcfc;
+    border-top: 1px solid #e2e2e2;
+}
+.footer{
+    height: 300px;
+    background: #fcfcfc;
+}
+.footer .footer_list{
+    float: left;
+    width: 825px;
+    height: 300px;
+    padding-top: 25px;
+}
+.footer .footer_list ul li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #101920;
+}
+.footer .footer_list ul li a{
+    font-size: 12px;
+    color:#828282;
+}
+.footer .footer_list ul li a:hover{
+    color: #101920;
+}
