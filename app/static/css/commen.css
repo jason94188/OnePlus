@@ -97,6 +97,8 @@
     text-align: center;
     box-shadow: 5px 10px 30px #e9e9e9;
     display: none;
+    background: #fff;
+    z-index: 9;
 }
 .header .nave_R .shop_car .shop_box .shop_txt{
     display: block;
@@ -137,6 +139,8 @@
     padding: 20px 0 0 20px;
     box-shadow: 5px 10px 30px #e9e9e9;
     display: none;
+    z-index: 9;
+    background: #fff;
 }
 .header .self_box span{
     display: block;
@@ -175,6 +179,12 @@
     width: 825px;
     height: 300px;
     padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer .footer_list ul{
+    margin-top: 30px;
 }
 .footer .footer_list ul li{
     height: 40px;
@@ -188,4 +198,95 @@
 }
 .footer .footer_list ul li a:hover{
     color: #101920;
+}
+.footer .footer_connect{
+    width: 240px;
+    height: 300px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .footer_connect .tel{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #101920;
+    font-weight: bolder;
+    margin: 40px 0 10px 0;
+}
+.footer .footer_connect .online{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #101920;
+    color: #101920;
+    border-radius: 2px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer .footer_connect p{
+    font-size: 14px;
+    color: #8c8c8c;
+}
+#copyright_wrapper{
+    width: 100%;
+    height: 230px;
+    background: #f9f9f9;
+}
+.copyright{
+    height: 230px;
+    background: #f9f9f9;
+}
+.copyright .copy_top{
+    height: 119px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.copyright .copy_top .langueges{
+    font-size: 16px;
+    color: #3b323b;
+    margin-left: 27px;
+}
+.copyright .copy_top div{
+    padding-right: 40px;
+    display: flex;
+    width: 340px;
+    color: #e0e0e0;
+    justify-content: space-around;
+}
+.copyright .copy_top div a{
+    color: #ad9fad;
+}
+.copyright .copy_top div a:hover{
+    color: #0f161b;
+}
+.copyright .copy_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright .copy_bottom .copynum{
+    margin: 30px 0 0 20px;
+    color: #999999;
+}
+.copyright .copy_bottom .copynum a{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.copyright .copy_bottom .copypic{
+    margin-top: 20px;
+}
+.copyright .copy_bottom .copypic a{
+    margin: 0 12px;
 }
