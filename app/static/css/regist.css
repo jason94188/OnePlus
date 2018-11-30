@@ -1,0 +1,13 @@
+#regist_wrapper{
+    width: 100%;
+    height: 550px;
+    background: #f9f9f9;
+}
+.regist{
+    height: 550px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
