@@ -53,13 +53,13 @@
 .regist p a:hover{
     text-decoration: underline;
 }
-.regist .creatNum{
+.regist .btn{
     display: block;
     width: 310px;
-    height: 40px;
+    /* height: 40px; */
     background: #eb0028;
     color: #fff;
-    line-height: 40px;
+    /* line-height: 40px; */
     text-align: center;
     border-radius: 3px;
     margin: 20px 0 35px 0;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="static/css/reset.css">
     <link rel="stylesheet" href="static/css/commen.css">
     <link rel="stylesheet" href="static/css/regist.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
     <!-- 网页头部开始 -->
@@ -62,9 +63,19 @@
     <section id="regist_wrapper">
         <section class="regist content">
             <h2>注册</h2>
-            <form>
-                <input type="text" placeholder="手机号"><br>
-                <input type="text" placeholder="密码">
+            <form class="form-box">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="请输入用户名" data-error="需要输入6-13位的字母或者下划线">
+                    <p class=""></p>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="请设置密码" data-error="密码格式不正确">
+                    <p class=""></p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入手机号" data-error="手机号格式不正确">
+                    <p class=""></p>
+                </div>
             </form>
             <div class="moveBox">
                 请按住滑块，拖动到最右边！
@@ -74,7 +85,7 @@
                 <a href="">使用条款</a>和
                 <a href="">隐私政策</a>
             </p>
-            <a href="" class="creatNum">创建账号</a>
+            <button name="submit" type="submit" class="btn btn-success">创建账号</button>
             <a href="">登录</a>
         </section>
     </section>
