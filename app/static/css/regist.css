@@ -27,8 +27,16 @@
     height: 35px;
     background: #e8e8e8;
     margin-bottom: 35px;
+    color: #a3aab1;
+    text-align: center;
+    line-height: 35px;
+    font-size: 12px;  
+    position: relative;  
 }
 .regist .moveBox div{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 33px;
     height: 33px;
     background: url('../images/oneplus_pic1.jpg') no-repeat;
