@@ -243,6 +243,7 @@
     background: #f9f9f9;
 }
 .copyright .copy_top{
+    width: 1200px;
     height: 119px;
     border-bottom: 1px solid #e0e0e0;
     display: flex;
